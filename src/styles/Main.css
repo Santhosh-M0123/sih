@@ -1,0 +1,72 @@
+.hero{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.web_title h1{
+    font-size: 40px;
+}
+.web_title h3{
+    font-size: 30px;
+    color: rgb(78, 74, 74);
+}
+
+.upload_image{
+    margin-top: 80px;
+}
+/* Hide the default file input */
+input[type="file"] {
+    display: none;
+  }
+  
+  /* Style the custom file input button */
+  .label-wrapper {
+    position: relative;
+    display: inline-block;
+    background-color: #3498db; /* Change to your desired background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style the label text */
+  .label-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Spacing between icon and text */
+  }
+  
+  /* Add an icon (optional) */
+  .icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 24px; /* Adjust size as needed */
+    margin-right: 5px; /* Spacing between icon and text */
+  }
+  
+  /* Change button style on hover (optional) */
+  .label-wrapper:hover {
+    background-color: #2980b9; /* Change to your desired hover background color */
+  }
+
+.abt_btn{
+    color: rgb(6, 99, 6);
+}
+
+.response_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 100px;
+}
+.progress_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 20px;
+}

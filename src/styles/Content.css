@@ -1,0 +1,38 @@
+.content_container{
+    width: 700px;
+    border: 2px dashed black;
+    padding: 50px 50px;
+}
+.link{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+    /* width: auto; */
+}
+.content_image img{
+    width: 250px;
+    height: 250px;
+}
+.content_image{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.link_tag{
+    text-decoration: none;
+}
+
+.ico_container{
+    font-size: 25px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    float: right;
+}
+.mic{
+    cursor: pointer;
+}
+.translate , .share{
+    cursor: pointer;
+}
