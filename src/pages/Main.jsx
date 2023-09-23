@@ -5,6 +5,8 @@ import Content from "../components/Content";
 import axios from "axios";
 const Main = () => {
   const [file, setFile] = useState(null);
+  const [variableData, setVariableData] = useState({})
+  const path = "http://localhost:8000"
 
   const handleFileChange = async (e) => {
     // Get the selected file
@@ -17,13 +19,14 @@ const Main = () => {
       console.log(selectedFile)
 
       // Send the file to the backend
-      const response = await axios.post('/api/upload', formData, {
+      const response = await axios.post(path+ '/api/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
       });
-
+      
       // Handle the response from the backend as needed
+      setVariableData(response.data)
       console.log(response.data);
     } catch (error) {
       console.error(error);
